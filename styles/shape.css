@@ -1,12 +1,11 @@
 .h5p-shape-editor .h5peditor-label {
   margin: 0;
-  line-height: 2.8em;
 }
 
 .h5p-shape-editor .h5peditor-label:before {
   content: "";
-  width: 2em;
-  height: 2em;
+  width: 1.9em;
+  height: 1.9em;
   margin: 0.3em;
   vertical-align: middle;
   display: inline-block;
@@ -14,7 +13,7 @@
 
 .h5p-shape-editor > .field,
 .h5p-shape-editor > .h5p-editor-widget-show-when {
-  margin: 0.5em 0;
+  margin: 0.75em 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #d0d0d1;
 }
@@ -26,7 +25,21 @@
 .h5p-shape-editor .field select,
 .h5p-shape-editor .field .sp-replacer {
   float: right;
+  padding: 0.3em;
   border-radius: 0;
+}
+
+.h5p-shape-editor .field select {
+  padding: 0.5em 2em 0.5em 1em;
+}
+
+.h5p-shape-editor .field .sp-replacer .sp-preview {
+  width: 34px;
+  height: 26px;
+}
+
+.h5p-shape-editor .field .sp-replacer .sp-dd {
+  padding: 6px 0;
 }
 
 /* Editor fields icons */

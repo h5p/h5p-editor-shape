@@ -10,8 +10,6 @@
     "majorVersion": 1,
     "minorVersion": 12
   },
-  "preloadedJs": [
-  ],
   "preloadedCss": [
     {
       "path": "styles/shape.css"

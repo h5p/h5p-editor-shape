@@ -1,6 +1,46 @@
-.field.field-name-solution,
-.field.field-name-alwaysDisplayComments,
-.field.field-name-backgroundOpacity,
-.field.field-name-displayAsButton {
-  display: none;
+.h5p-shape-editor .h5peditor-label {
+  margin: 0;
+  line-height: 2.8em;
+}
+
+.h5p-shape-editor .h5peditor-label:before {
+  content: "";
+  width: 2em;
+  height: 2em;
+  margin: 0.3em;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.h5p-shape-editor .field {
+  margin: 0.5em 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #d0d0d1;
+}
+
+.h5p-shape-editor .field .h5peditor-label-wrapper {
+  float: left;
+}
+
+.h5p-shape-editor .field select,
+.h5p-shape-editor .field .sp-replacer {
+  float: right;
+  border-radius: 0;
+}
+
+/* Editor fields icons */
+.h5p-shape-editor .field-name-fillColor .h5peditor-label:before {
+  background: transparent url(../icons/icon-fill-color.svg) no-repeat center;
+}
+
+.h5p-shape-editor .field-name-lineColor .h5peditor-label:before {
+  background: transparent url(../icons/icon-line-color.svg) no-repeat center;
+}
+
+.h5p-shape-editor .field-name-lineWeight .h5peditor-label:before {
+  background: transparent url(../icons/icon-line-weight.svg) no-repeat center;
+}
+
+.h5p-shape-editor .field-name-lineStyle .h5peditor-label:before {
+  background: transparent url(../icons/icon-line-style.svg) no-repeat center;
 }

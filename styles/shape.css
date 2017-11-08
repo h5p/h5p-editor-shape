@@ -12,7 +12,8 @@
   display: inline-block;
 }
 
-.h5p-shape-editor .field {
+.h5p-shape-editor > .field,
+.h5p-shape-editor > .h5p-editor-widget-show-when {
   margin: 0.5em 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #d0d0d1;

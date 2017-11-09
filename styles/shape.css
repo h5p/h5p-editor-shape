@@ -1,21 +1,28 @@
 .h5p-shape-editor .h5peditor-label {
   margin: 0;
+  font-size: 0.9em;
 }
 
 .h5p-shape-editor .h5peditor-label:before {
   content: "";
   width: 1.9em;
   height: 1.9em;
-  margin: 0.3em;
+  margin: 0.3em 1em 0.3em 0.3em;
   vertical-align: middle;
   display: inline-block;
 }
 
-.h5p-shape-editor > .field,
-.h5p-shape-editor > .h5p-editor-widget-show-when {
-  margin: 0.75em 0;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid #d0d0d1;
+.h5p-shape-editor .h5peditor-label.h5peditor-required:after {
+  display: none;
+}
+
+.h5p-shape-editor > div {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.h5p-shape-editor > div:not(:first-child) {
+  border-top: 1px solid #e4e4e4;
 }
 
 .h5p-shape-editor .field .h5peditor-label-wrapper {
@@ -57,4 +64,8 @@
 
 .h5p-shape-editor .field-name-lineStyle .h5peditor-label:before {
   background: transparent url(../icons/icon-line-style.svg) no-repeat center;
+}
+
+.h5p-shape-editor .field-name-lineRadius .h5peditor-label:before {
+  background: transparent url(../icons/icon-line-radius.svg) no-repeat center;
 }

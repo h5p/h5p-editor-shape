@@ -3,6 +3,10 @@
   font-size: 0.9em;
 }
 
+.h5p-shape-editor .field-name-type .h5peditor-label {
+  display: none;
+}
+
 .h5p-shape-editor .h5peditor-label:before {
   content: "";
   width: 1.9em;
@@ -21,7 +25,7 @@
   padding: 0.5em 0;
 }
 
-.h5p-shape-editor > div:not(:first-child) {
+.h5p-shape-editor > div:not(:first-child):not(.field-name-fillColor) {
   border-top: 1px solid #e4e4e4;
 }
 
@@ -47,6 +51,44 @@
 
 .h5p-shape-editor .field .sp-replacer .sp-dd {
   padding: 6px 0;
+}
+
+/* Custom image radio selector */
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal {
+  margin: 0 0.3em 1.8em 0;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal label {
+  background: transparent url(../icons/type-rectangle.svg) no-repeat center;
+  background-size: 75%;
+  display: inline-block;
+  cursor: pointer;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label {
+  box-shadow: 0 0 0 2px #6f6f6f;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal label span {
+  display: none;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label span {
+  display: block;
+  position: absolute;
+  top: 4.5em;
+  left: 1em;
+  margin: 0 0.3em;
 }
 
 /* Editor fields icons */

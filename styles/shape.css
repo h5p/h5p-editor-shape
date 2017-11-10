@@ -65,12 +65,27 @@
 }
 
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal label {
-  background: transparent url(../icons/type-rectangle.svg) no-repeat center;
   background-size: 75%;
   display: inline-block;
   cursor: pointer;
   width: 1.8em;
   height: 1.8em;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .rectangle label {
+  background: transparent url(../icons/type-rectangle.svg) no-repeat center;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .circle label {
+  background: transparent url(../icons/type-circle.svg) no-repeat center;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .vertical-line label {
+  background: transparent url(../icons/type-vertical-line.svg) no-repeat center;
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .horizontal-line label {
+  background: transparent url(../icons/type-horisontal-line.svg) no-repeat center;
 }
 
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label {

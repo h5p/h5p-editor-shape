@@ -114,7 +114,8 @@
   background: transparent url(../icons/icon-fill-color.svg) no-repeat center;
 }
 
-.h5p-shape-editor .field-name-lineColor .h5peditor-label:before {
+.h5p-shape-editor .field-name-lineColor .h5peditor-label:before,
+.h5p-shape-editor .field-name-borderColor .h5peditor-label:before {
   background: transparent url(../icons/icon-line-color.svg) no-repeat center;
 }
 

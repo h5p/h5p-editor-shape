@@ -98,12 +98,64 @@
   background-image: url(../icons/type-circle.svg);
 }
 
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .triangle label {
+  background-image: url(../icons/type-triangle.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .pentagon label {
+  background-image: url(../icons/type-pentagon.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .hexagon label {
+  background-image: url(../icons/type-hexagon.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .cylinder label {
+  background-image: url(../icons/type-cylinder.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .cube label {
+  background-image: url(../icons/type-cube.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .cone label {
+  background-image: url(../icons/type-cone.svg);
+}
+
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .vertical-line label {
   background-image: url(../icons/type-vertical-line.svg);
 }
 
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .horizontal-line label {
   background-image: url(../icons/type-horisontal-line.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .long-arrow-right label {
+  background-image: url(../icons/type-long-arrow-right.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .long-arrow-left label {
+  background-image: url(../icons/type-long-arrow-left.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .long-arrow-up label {
+  background-image: url(../icons/type-long-arrow-up.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .long-arrow-down label {
+  background-image: url(../icons/type-long-arrow-down.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .arrows-alt-h label {
+  background-image: url(../icons/type-arrows-alt-h.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .arrows-alt-v label {
+  background-image: url(../icons/type-arrows-alt-v.svg);
+}
+
+.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .arrows-alt label {
+  background-image: url(../icons/type-arrows-alt.svg);
 }
 
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label {

@@ -155,10 +155,6 @@
   background-image: url(../icons/type-arrows-alt-v.svg);
 }
 
-.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .arrows-alt label {
-  background-image: url(../icons/type-arrows-alt.svg);
-}
-
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label {
   box-shadow: 0 0 0 2px #6f6f6f;
   background-color: #e3e3e3;

@@ -70,8 +70,9 @@
 
 /* Custom image radio selector */
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal {
-  margin: 0 0.3em 1.8em 0;
+  margin: 0 0.3em -2em 0;
   position: relative;
+  padding-bottom: 2em;
 }
 
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal input {
@@ -154,10 +155,6 @@
   background-image: url(../icons/type-arrows-alt-v.svg);
 }
 
-.h5p-shape-editor .h5p-editor-radio-group-container.horizontal .arrows-alt label {
-  background-image: url(../icons/type-arrows-alt.svg);
-}
-
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label {
   box-shadow: 0 0 0 2px #6f6f6f;
   background-color: #e3e3e3;
@@ -171,7 +168,7 @@
 .h5p-shape-editor .h5p-editor-radio-group-container.horizontal .checked label span {
   display: block;
   position: absolute;
-  top: 3.25em;
+  bottom: 0em;
   left: 0.3em;
   margin: 0 0.3em;
 }
